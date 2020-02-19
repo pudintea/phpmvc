@@ -8,6 +8,10 @@
  * Telegram		: https://t.me/pudintea
  *
  */
+ //Start Session
+ if (!session_id()){
+	session_start();
+ }
  
  //bootstreping
  require_once '../app/init.php';
